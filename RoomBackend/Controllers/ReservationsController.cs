@@ -84,7 +84,6 @@ public class ReservationsController : ControllerBase
        reservationToEdit.EndTime = updatedReservation.EndTime;
        reservationToEdit.Status = updatedReservation.Status;
        
-   
        return Ok($"Rezerwacja {id}:{reservationToEdit.Topic} została zaaktualizowany.");
    }
    

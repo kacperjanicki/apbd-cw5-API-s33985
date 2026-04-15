@@ -11,7 +11,7 @@ public class RoomsController : ControllerBase
         new Room(){Id = 1, Floor = 2, Capacity = 4, HasProjector = false, IsActive = true, Name = "Alpha", BuildingCode = "2B"},
         new Room(){Id = 2, Floor = 1, Capacity = 2, HasProjector = true, IsActive = true, Name = "Beta", BuildingCode = "1A"},
         new Room(){Id = 3, Floor = 5, Capacity = 6, HasProjector = true, IsActive = true, Name = "Gamma", BuildingCode = "1A"},
-        new Room(){Id = 4, Floor = 0, Capacity = 10, HasProjector = true, IsActive = true, Name = "Delta", BuildingCode = "2B"},
+        new Room(){Id = 4, Floor = 0, Capacity = 10, HasProjector = true, IsActive = false, Name = "Delta", BuildingCode = "2B"},
         new Room(){Id = 5, Floor = 3, Capacity = 15, HasProjector = true, IsActive = true, Name = "Omega", BuildingCode = "3C"}
     };
 
